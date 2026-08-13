@@ -1,0 +1,12 @@
+/*Contact Section*/
+
+.contact-section {
+    background-color: #f2f0fa;
+    padding: 60px 80px;
+}
+
+.contact-section h2 {
+    text-align: center;
+    color: #101e3b;
+    margin-bottom: 30px;
+}
