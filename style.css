@@ -1,0 +1,38 @@
+section {
+    padding : 40px 20px;
+    text-align : center;
+}
+h2 {
+    color : #2b2360;
+    font-size:32px;
+    margin-bottom: 20px;
+}
+p{
+    color: #555;
+    line-height: 1.6;
+    max-width: 700px;
+margin: 10px auto;
+}    
+.values {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.value-box {
+    background:#f4f0fb;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 250px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.value-box h3 {
+    color: #2b2360;
+    margin-bottom: 10px;
+}
+
+
+
+
+
