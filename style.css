@@ -1,49 +1,122 @@
+.hero {
+    width: 100%;
+}
 
-
-h1{
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 70px 20px 35px;
     text-align: center;
 }
 
-.logo-text {
-  font-size: 1.25rem;
-  font-weight: 800;
-  color: var(--color-dark);
-  letter-spacing: -0.02em;
+.hero-container h1 {
+    font-size: 80px;
+    color: #101e3b;
+    margin: 0;
 }
 
-.nav-links {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
+.hero-heading {
+    color: #6e42aa;
+    font-size: 45px;
+    font-weight: 600;
+    margin: 10px 0 0;
+}
+
+.hero-container h3 {
+    margin: 25px 0 10px;
 }
 
 .hero-intro {
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 800px;
+    margin: 10px auto 0;
+    text-align: center;
+    line-height: 1.6;
 }
 
-.navbar ul{
-    list-style-type: none;
-    background-color: #041434;
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
+@media (max-width: 1024px) {
+
+    .hero-container {
+        padding: 60px 30px 35px;
+    }
+
+    .hero-container h1 {
+        font-size: 60px;
+    }
+
+    .hero-heading {
+        font-size: 38px;
+    }
+
+    .hero-container h3 {
+        font-size: 18px;
+    }
+
+    .hero-intro {
+        max-width: 700px;
+        font-size: 15px;
+    }
 }
 
-.navbar a{
-    color: #6e42aa;
-    text-decoration: none;
-    padding: 15px;
-    display: block;
-    text-align: right;
+@media (max-width: 768px) {
+
+    .hero-container {
+        padding: 50px 25px 35px;
+    }
+
+    .hero-container h1 {
+        font-size: 46px;
+    }
+
+    .hero-heading {
+        font-size: 32px;
+    }
+
+    .hero-heading::after {
+        width: 55px;
+        height: 3px;
+    }
+
+    .hero-container h3 {
+        font-size: 16px;
+        margin: 20px 0 10px;
+    }
+
+    .hero-intro {
+        max-width: 600px;
+        font-size: 14px;
+    }
 }
 
-.navbar a:hover{
-    opacity: 1;
-}
+@media (max-width: 520px) {
 
-.navbar li {
-    float:left;
+    .hero-container {
+        padding: 40px 18px 30px;
+    }
+
+    .hero-container h1 {
+        font-size: 34px;
+        line-height: 1.1;
+    }
+
+    .hero-heading {
+        font-size: 25px;
+        line-height: 1.2;
+        margin-top: 15px;
+    }
+
+    .hero-container h3 {
+        font-size: 15px;
+        line-height: 1.4;
+        margin: 20px 0 10px;
+    }
+
+    .hero-intro {
+        width: 100%;
+        font-size: 13px;
+        line-height: 1.6;
+    }
 }
 
 /* Navigation Bar */
