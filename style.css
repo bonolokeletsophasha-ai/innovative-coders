@@ -1,21 +1,27 @@
+
+
 h1{
     text-align: center;
 }
+
 .logo-text {
   font-size: 1.25rem;
   font-weight: 800;
   color: var(--color-dark);
   letter-spacing: -0.02em;
 }
+
 .nav-links {
   display: flex;
   align-items: center;
   gap: 2rem;
 }
+
 .hero-intro {
     margin-left: auto;
     margin-right: auto;
 }
+
 .navbar ul{
     list-style-type: none;
     background-color: #041434;
@@ -23,6 +29,7 @@ h1{
     margin: 0px;
     overflow: hidden;
 }
+
 .navbar a{
     color: #6e42aa;
     text-decoration: none;
@@ -30,12 +37,15 @@ h1{
     display: block;
     text-align: right;
 }
+
 .navbar a:hover{
     opacity: 1;
 }
+
 .navbar li {
     float:left;
 }
+
 /* Navigation Bar */
 .navbar {
     background-color: #101e3b;
@@ -50,14 +60,13 @@ h1{
     width: 90%;
     max-width: 1200px;
     margin: auto;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 /* Logo */
-.logo {
+.logo img {
     width: 50px;
     height:50px;
     display:flex;
@@ -205,12 +214,6 @@ body {
 
 .team-intro-text {
     color: #666;
-}
-
-.team-slogan {
-    color: #101e3b;
-    font-size: 25px;
-    font-weight: 600;
 }
 
 .team-section {
@@ -1025,7 +1028,7 @@ body {
 .footer {
     background-color: #101e3b;
     color: white;
-    margin-top: 50px;
+    margin-top: 0;
 }
 
 .footer-container {
